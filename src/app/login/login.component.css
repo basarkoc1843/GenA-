@@ -1,0 +1,123 @@
+.svgLogo{
+    background-image: url(../../assets/images/logo.svg);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.login-menu{
+    
+  
+    background-color: #FFF;
+}
+.parent {
+    
+}
+.title {
+    position: absolute;
+    width: 85%;
+    height: 99px;
+    top: 110px;
+}
+.title > p {
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.title > #defination {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #93989A;
+
+}
+.signIn {
+    position: absolute;
+    width: 85%;
+    height: 200px;
+    top: 290px;
+}
+
+.form-control{
+    margin-top: 10px;
+    height: 60px;
+    border-radius: 6px;
+}
+
+.formPassword {
+    margin-top: 10px;
+}
+
+.footer{
+    position: absolute;
+    top: 650px;
+    width: 85%;
+}
+
+.or {
+    
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: #E6E6E6;
+    margin: 8px 0px;
+}
+.or:before,
+.or:after {
+    content: "";
+    flex-grow: 1;
+    background: #E6E6E6;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 8px;
+}
+.text {
+    margin: auto;
+    color: #93989A;
+    font-family: 'Poppins', sans-serif;
+    height: 63px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+}
+form-row:focus{
+    outline: 0 !important;
+    outline: none !important;
+    outline-width: 0 !important;
+   
+}
+
+@media screen and (max-height: 1180px) and (min-width: 678px){
+   .title-field {
+    margin-top: 6rem !important;
+    transition: all 0.5s ease 100ms !important;
+
+   }
+   .login {
+    margin-top: 4rem !important;
+    transition: all 0.5s ease 100ms !important;
+   }
+   .login-footer {
+    margin-top: 6rem !important;
+    height: 10% !important;
+    transition: all 0.5s ease 100ms !important;
+   }
+  }
+
+  @media screen and (max-height:1000px) {
+
+    .title-service {
+        font-weight: 600 !important;
+        font-size: 20px !important;
+        line-height: 20px;
+        color: black;
+        transition: all 0.5s ease 100ms !important;
+    }
+  }

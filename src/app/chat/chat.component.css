@@ -1,0 +1,301 @@
+
+.container-fluid{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+  }
+  
+  .yellow {
+    
+    height: 98% !important;
+    margin-bottom: 0px !important;
+    margin: auto !important;
+    margin-left: 10rem !important; 
+  }
+  
+  .text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+  }
+  .icon {
+    
+    width: 43px;
+    height: 42px;
+    margin: auto;
+    align-items: center;
+   
+  }
+  .iconText{
+    margin: auto;
+   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+  }
+  
+  .iconFooter {
+    width: 57.14px;
+    height: 57.14px;
+    background-image: url(../../assets/images/iconFooter.svg);
+  }
+  
+  .buttonIcon {
+    background-image: url(../../assets/images/buttonIcon.svg);
+  }
+  .clickIcon {
+    
+    cursor: pointer;
+    margin-left: 24px;
+  }
+  .clickIcon svg:hover path{
+    stroke: black;
+  }
+  .clickText {
+    width: 95%;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #93989A;
+    margin-left: 4px;
+  }
+  
+  
+  
+  .iconSpeech{
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-image: url(../../assets/images/speech.svg);
+  }
+  .boxIcon {
+    cursor: pointer;
+    
+    
+  }
+  .heartIcon {
+    cursor: pointer;
+    margin-left: 24px;
+    
+    
+  }
+  .heartIcon svg:hover path {
+    fill: none;
+    stroke: black;
+  }
+  .boxIcon svg:hover path{
+    fill: black;
+    
+    
+  }
+  .col-sm-5 {
+    height: 125px;
+    border-radius: 12px;
+    background-color: #F7F7F7;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+  
+    
+  }
+  
+  
+  .footer-beginner{
+    
+    opacity: 0 !important;
+  }
+  .footer-beginner.default{
+    
+    opacity: 1 !important;
+    transition: all 1s ease 500ms;
+  }
+  
+  #close-button:hover{
+    background-color: #d7e9fc !important;
+    transition: all 0.5s ease 100ms !important;
+    
+  }
+  #endMeeting:hover {
+    background-color: #9c1e12 !important;
+    transition: all 0.5s ease 100ms !important;
+  
+  }
+  
+  
+  .user-feedback-item1:hover {
+    background-color: #d7e9fc !important;
+    transition: all 0.5s ease 100ms !important;
+    cursor: pointer;
+  
+  }
+  .user-feedback-item2:hover {
+    background-color: #d7e9fc !important;
+    transition: all 0.5s ease 100ms !important;
+    cursor: pointer;
+  
+  }
+  .user-feedback-item3:hover {
+    background-color: #d7e9fc !important;
+    transition: all 0.5s ease 100ms !important;
+    cursor: pointer;
+  
+  }
+  .user-feedback-item4:hover {
+    background-color: #d7e9fc !important;
+    transition: all 0.5s ease 100ms !important;
+    cursor: pointer;
+  
+  }
+  .user-feedback-item5:hover {
+    background-color: #d7e9fc !important;
+    transition: all 0.5s ease 100ms !important;
+    cursor: pointer;
+  
+  }
+  
+  .detail-button button:hover{
+    background-color: #d7e9fc !important;
+    transition: all 0.5s ease 100ms !important;
+    cursor: pointer;
+    
+  }
+  
+  #content.active {
+    width: 80% !important;
+    margin-left: 16rem !important;
+    transition: all 0.5s ease 100ms !important;
+  }
+  
+  #footer.active {
+    width: 80% !important;
+    margin-left: 16rem !important;
+    transition: all 0.5s ease 100ms !important;
+  }
+  .display-suggestion {
+    width: 142px; 
+    height: 24px; 
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 24px; 
+    color: #202226;
+    cursor: pointer;
+   
+  }
+  .display-suggestion:hover{
+    
+    text-decoration: underline;
+    font-weight: 600;
+    
+  }
+  .display-suggestion.active{
+    opacity: 0;
+  }
+  
+  .hidden-suggestion-field{
+    display: none;
+  }
+  
+  .hidden-suggestion-field.active {
+    cursor: pointer;
+    
+  
+    display: inline-block;
+    position: absolute;
+    width: 67%;
+    height: 314px;
+  
+    bottom: 85%;
+    
+  }
+  .hidden-suggestion-field.active .hidden-suggestion:hover{
+    font-weight: 600;
+    
+    text-decoration: underline;
+  }
+  
+  .hidden-suggestion {
+    width: 140px;
+    height: 24px;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #202226;
+  }
+  .suggestion-card{
+    width: 100%;
+    height: 125px;
+    
+    margin-top: 20px;
+    display: flex;
+  }
+  .suggestion-writing {
+    width: 504px;
+    height: auto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #202226;
+  
+  }
+  
+  .suggestion-writing:hover {
+    transition: all 1.5s ease 100ms !important;
+    font-weight: 500;
+    
+  }
+  
+  .sidebar.active {
+    width: 283px !important;
+    transition: all 0.5s ease 100ms !important;
+  
+  }
+  .sidebarLogo {
+    height: 50px;
+    background: url("../../../koc.png");
+    background-repeat: no-repeat;
+    background-size: 237px 46px;
+    margin-left: 0.6rem;
+  
+  }
+  
+  
+  
+  .testttt{
+    border-radius: 50px;
+    margin: 0 15px 20px;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 20px;
+  }
+  .testttt.to {
+    background-color: #2095FE;
+    color: #fff;
+    margin-left: 100px;
+    text-align: right;
+  }
+  
+  .testttt.from {
+    background-color: #E5E4E9;
+    color: #363636;
+    margin-right: 100px;
+  }
+  
+  
+  @media screen and (max-width: 1350px){
+    /* .input-icon svg{
+     width: 60px !important;
+     height: 60px !important;
+     position: absolute;
+     bottom: 0%;
+    } */
+  }
+  

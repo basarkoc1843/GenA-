@@ -1,0 +1,13 @@
+<div style="background-color: #EEF0F8; border: 1px solid black; display: flex;transition: all 0.5s ease 50ms;" class="center">
+ <div class="sidebar-selector">
+    <app-sidebar></app-sidebar>
+ </div>
+ <div  id="intro" class="intro" style="width: 90%; height: 100%; border: 1px solid red;margin: auto; ">
+    <app-chat *ngIf="checkChat"></app-chat>
+    <app-test *ngIf="checkFeedback" style="position: relative;"></app-test>
+ </div>
+    
+    
+
+
+</div>

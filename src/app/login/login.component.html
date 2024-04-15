@@ -1,0 +1,120 @@
+<!-- Section: Split screen -->
+<section style="background-color: #EEF0F8;" class="">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 vh-100  d-flex align-items-center justify-content-center">
+            <div class="svgLogo" style="width: 342px; height:342px;">
+               
+                    
+              </div>
+              <sa-spinner-round-outlined styles='{"color": "red"}'></sa-spinner-round-outlined>
+
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <div class="login-menu" style="width: 85%; height: 90%; border-radius: 6px;">
+              <div class="title-field" style="width: 80%; height: 10%;margin: auto; margin-top: 8rem; ">
+                <div class="title-service" style="width: 100%; height: 30%; font-weight: 600; font-size: 32px; line-height: 24px; color: #000000;">
+                  Welcome to Service Assistant!
+                </div>
+                <div class="description" style="width: 100%; height: 55%; margin-top: 1rem; font-weight: 400; font-size: 14px; line-height: 24px; color: #93989A;">
+                  We are always by your side. To receive support, gain information, and take advantage of our services with Service Assistant, please sign in.
+                </div>
+
+              </div>
+              <div class="login" style="width: 80%; height: 30%; margin: auto; margin-top: 6rem;">
+                <form [formGroup]="loginForm" style="outline: none;">
+                  <form-row style="outline: none;">
+                    <label for="inputEmail4">E-mail</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="user@gmail.com" style="outline: none !important;" formControlName="email">
+                  </form-row>
+                  <form-row class="formPassword">
+                    <label style="margin-top: 15px;" for="inputEmail4">Password</label>
+                    <input type="password" class="form-control" id="inputEmail4" placeholder="password" formControlName="password">
+                  </form-row>
+                  <button (click)="send()" style="width: 100%; height:60px;margin-top:25px;background-color:#E65244; font-family: 'Poppins', sans-serif;font-weight: 400; font-size: 14px; line-height: 24px; color: #FFFFFF; border: none;" type="button" class="btn btn-primary">Sign in</button>
+                </form>
+              </div>
+
+              <div class="login-footer" style="width: 80%; height: 20%; margin: auto; margin-top: 6rem;">
+                <div class="or">
+                  or
+                </div>
+                <div class="text d-flex justify-content-center">
+                  Need help? We're here to assist you with any issues you may encounter.
+                </div>
+                <button  style="margin: auto; background-color:#E6E6E6; height:60px; width:196px; align-items: center; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #000000; border: none;" type="button" class="btn btn-dark d-flex justify-content-center">Contact Support</button>
+              </div>
+              
+
+          </div>
+
+          <!-- <form [formGroup]="loginForm">
+            <form-row>
+              <label for="inputEmail4">E-mail</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="user@gmail.com" formControlName="email">
+            </form-row>
+
+            <form-row class="formPassword">
+              <label style="margin-top: 15px;" for="inputEmail4">Password</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="password" formControlName="password">
+            </form-row>
+
+            <button (click)="send()" style="width: 100%; height:60px;margin-top:25px;background-color:#E65244; font-family: 'Poppins', sans-serif;font-weight: 400; font-size: 14px; line-height: 24px; color: #FFFFFF;" type="button" class="btn btn-primary">Sign in</button>
+
+            
+            
+
+          </form> -->
+          <!-- <div class="d-flex justify-content-center loginMenu  top-50 start-0 translate-middle-y">
+
+            <div class=" title">
+              <p>Welcome to Service Assistant!</p>
+              <br>
+              <p id="defination">We are always by your side. To receive support, gain information, and take advantage of our services with Service Assistant, please sign in.</p>
+            </div>
+
+            <div class="signIn">
+              <form [formGroup]="loginForm">
+                <form-row>
+                  <label for="inputEmail4">E-mail</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="user@gmail.com" formControlName="email">
+                </form-row>
+
+                <form-row class="formPassword">
+                  <label style="margin-top: 15px;" for="inputEmail4">Password</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="password" formControlName="password">
+                </form-row>
+
+                <button (click)="send()" style="width: 100%; height:60px;margin-top:25px;background-color:#E65244; font-family: 'Poppins', sans-serif;font-weight: 400; font-size: 14px; line-height: 24px; color: #FFFFFF;" type="button" class="btn btn-primary">Sign in</button>
+
+                
+                
+
+              </form>
+              
+
+            </div>
+
+            <div class="footer">
+
+              <div class="or">
+                or
+              </div>
+              <div class="text d-flex justify-content-center">
+                Need help? We're here to assist you with any issues you may encounter.
+              </div>
+
+              <button  style="margin: auto; background-color:#E6E6E6; height:60px; width:196px; align-items: center; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #000000;" type="button" class="btn btn-dark d-flex justify-content-center">Contact Support</button>
+              
+            </div>
+
+            
+            
+          </div> -->
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!-- Section: Split screen -->

@@ -1,0 +1,36 @@
+
+  
+
+  
+  .sidebar.active {
+    width: 283px !important;
+    transition: all 0.5s ease 100ms !important;
+  
+  }
+  .sidebarLogo {
+    height: 50px;
+    background: url("../../../koc.png");
+    background-repeat: no-repeat;
+    background-size: 237px 46px;
+    margin-left: 0.6rem;
+  
+  }
+
+  #service svg g path {
+    fill: #A1A5B7;
+  }
+
+  .item-icon.active {
+    background-color: #E65244 !important;
+  }
+
+  .item-icon.active svg g path{
+    fill: white !important;
+  }
+  .item-desc.active{
+    color: #E65244 !important;
+  }
+  
+  
+
+  
